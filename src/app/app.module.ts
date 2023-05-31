@@ -5,11 +5,11 @@ import { CounterModule } from './counter/counter.module';
 import { HeroeModules } from './heroes/heroes.module';
 
 import { AppComponent } from './app.component';
-
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, CounterModule, HeroeModules],
+  imports: [BrowserModule, CounterModule, HeroeModules, DbzModule],
   providers: [],
   bootstrap: [AppComponent],
 })
